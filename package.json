@@ -1,0 +1,23 @@
+{
+  "name": "zender",
+  "version": "1.0.0",
+  "description": "sends message from devbot server to slack recipient",
+  "main": "listener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbot-xyz/zender.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devbot-xyz/zender/issues"
+  },
+  "homepage": "https://github.com/devbot-xyz/zender#readme",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "slackbots": "^0.5.3"
+  }
+}
