@@ -2,7 +2,7 @@ var amqp = require('amqplib/callback_api');
 var SlackBot = require('slackbots')
 
 var bot = new SlackBot({
-    token: 'XXX', // Add a bot https://my.slack.com/services/new/bot and put the token
+    token: process.env.SLACK_TOKEN, // Add a bot https://my.slack.com/services/new/bot and put the token
     name: 'devbot'
 });
 var ampqUser = process.env.AMQP_USER
